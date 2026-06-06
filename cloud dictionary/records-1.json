@@ -1,0 +1,204 @@
+{
+  "CloudDefinitions": [
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS KMS" },
+          "definition": { "S": "AWS Key Management Service (KMS) is a managed service that makes it easy to create and control cryptographic keys used to protect your data." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon S3" },
+          "definition": { "S": "Amazon Simple Storage Service (S3) is an object storage service offering scalability, data availability, security, and performance for storing and retrieving any amount of data." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS Lambda" },
+          "definition": { "S": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You pay only for the compute time you consume." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon EC2" },
+          "definition": { "S": "Amazon Elastic Compute Cloud (EC2) provides scalable computing capacity in the AWS cloud, allowing you to launch virtual servers called instances." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon VPC" },
+          "definition": { "S": "Amazon Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network you define." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS IAM" },
+          "definition": { "S": "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely by creating users, groups, and roles with specific permissions." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon RDS" },
+          "definition": { "S": "Amazon Relational Database Service (RDS) makes it easy to set up, operate, and scale relational databases in the cloud such as MySQL, PostgreSQL, and Aurora." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon DynamoDB" },
+          "definition": { "S": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS CloudFormation" },
+          "definition": { "S": "AWS CloudFormation gives developers and businesses an easy way to create a collection of related AWS and third-party resources using infrastructure as code." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon CloudFront" },
+          "definition": { "S": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS Elastic Beanstalk" },
+          "definition": { "S": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications. You upload your code and Beanstalk handles deployment, load balancing, and scaling." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon SNS" },
+          "definition": { "S": "Amazon Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application and application-to-person communication." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon SQS" },
+          "definition": { "S": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS Fargate" },
+          "definition": { "S": "AWS Fargate is a serverless compute engine for containers that works with Amazon ECS and EKS. It removes the need to provision and manage servers for container workloads." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon EKS" },
+          "definition": { "S": "Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service that makes it easy to run Kubernetes on AWS without needing to install or operate your own Kubernetes control plane." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon ECS" },
+          "definition": { "S": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that makes it easy to deploy, manage, and scale containerized applications." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS Route 53" },
+          "definition": { "S": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service designed to route end users to internet applications." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS Glue" },
+          "definition": { "S": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it simple and cost-effective to categorize, clean, enrich, and move data." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon Textract" },
+          "definition": { "S": "Amazon Textract is a machine learning service that automatically extracts text and data from scanned documents, going beyond simple OCR to identify form fields and tables." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS Step Functions" },
+          "definition": { "S": "AWS Step Functions is a serverless orchestration service that lets you combine Lambda functions and other AWS services to build business-critical applications as visual workflows." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Amazon Kinesis" },
+          "definition": { "S": "Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS CodePipeline" },
+          "definition": { "S": "AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "AWS Terraform" },
+          "definition": { "S": "Terraform is an open-source Infrastructure as Code (IaC) tool by HashiCorp that allows you to define and provision AWS infrastructure using a declarative configuration language (HCL)." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Cloud Computing" },
+          "definition": { "S": "Cloud computing is the on-demand availability of computer system resources — especially data storage and computing power — without direct active management by the user." }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "term": { "S": "Serverless" },
+          "definition": { "S": "Serverless computing is a cloud execution model where the cloud provider dynamically manages the allocation of machine resources. Pricing is based on actual usage rather than pre-purchased capacity." }
+        }
+      }
+    }
+  ]
+}
